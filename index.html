@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>font-family</title>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="body">
+  <header class="header">
+    <a class="header__button" href="#">Позвонить</a>
+    <nav class="nav">
+      <a class="nav__item" href="#">Мои навыки</a>
+      <a class="nav__item" href="#">Оставить заявку</a>
+    </nav>
+    <div class="hamburger-nav">
+      <input id="nav__toggle" type="checkbox"/>
+      <label class="nav__btn" for="nav__toggle">
+        <span></span>
+      </label>
+      <ul class="nav__box">
+        <li><a class="nav__item" href="#">Мои Навыки</a></li>
+        <li><a class="nav__item" href="#">Оставить Заявку</a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="main">
+    <section class="top-section">
+        <h1 class="text__title">Разработка сайтов,   игр и приложений</h1>
+        <p class="text__subtitle">Помогаю воплощать мечты в реальность</p>
+      </section>
+    <section class="advantage-section">
+      <h1 class="advantage-section__title">Почему вам стоит обратиться ко мне</h1>
+      <div class="advantage-section__advantage">
+        <div class="advantage-section__advantage_approach">
+          <h3>Индивидуальный подход</h3>
+          <p>Каждый клиент для меня особенный. Я тщательно изучаю что ему необходимо, прежде, чем приступить к работе.</p>
+        </div>
+        <div class="advantage-section__advantage_price">
+          <h3>Разумные  цены</h3>
+          <p>Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков.</p>
+        </div>
+        <div class="advantage-section__advantage_result">
+          <h3>Отличный результат!</h3>
+          <p>Я внимательно работаю над каждым проектом. Я очень люблю свою работу, поэтому вас обрадует результат проделонной работы.</p>
+        </div>
+      </div>
+      <a class="advantage-section__button">Получить консультацию</a>
+    </section>
+    <section class="potential-section">
+      <h1 class="potential-section__title">Что я могу</h1>
+      <div class="slider">
+        <input type="radio" name="slider" title="slide-code" checked="checked" class="slider__nav">
+        <input type="radio" name="slider" title="slide-animation" class="slider__nav">
+        <input type="radio" name="slider" title="slide-apps" class="slider__nav">
+        <div class="slider__potential">
+          <div class="slide__contents">
+            <img class="slide__img" src="img/img 1.svg">
+            <div class="text__potential_cod">
+              <h4 class="slide__title">Я умею писать валидный и семматически верный код для вашего сайта или приложения</h4>
+              <p class="slide__text">Ваш сайт и приложение будут верно работать, благодаря моей верстке</p>
+            </div>
+          </div>
+          <div class="slide__contents">
+            <img class="slide__img" src="img/img 2.svg" weight="175px" height="175px">
+            <div class="text__potential_animation">
+              <h4 class="slide__title">Я умею создавать игры и анимации с помощью JavaScript</h4>
+              <p class="slide__text">Я свободно владею языком JavaScript и могу "оживить" ваш сайт и приложение</p>
+            </div>
+          </div>
+          <div class="slide__contents">
+            <img class="slide__img" src="img/img 3.svg">
+            <div class="text__potential_react">
+              <h4 class="slide__title">Я умею создавать приложения с помощью React</h4>
+              <p class="slide__text">Благодаря моим навыкам, ваш сайт и приложение будут максимально удобны в использовании</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <form class="form">
+    <h1 class="form__title">Есть вопросы?</h1>
+    <img class="form__img" src="./img/img 4.svg">
+    <p class="form__text">Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами.</p>
+    <input class="form__imput" type="text" placeholder="Имя и фамилия" id="name">
+    <input class="form__imput" type="number" placeholder="Номер телефона" id="phone">
+    <input class="form__imput" type="text" placeholder="e-mail" id="email">
+    <input class="form__butten" type="submit" placeholder="Отправить">
+  </form>
+  <div class="bottom-section">
+    <h1 class="title__bottom">Меня можно  найти в социальных сетях:</h1>
+    <div class="circle">
+      <div class="circle__1">in</div>
+      <div class="circle__2">
+        <div class="circle__2_box"></div>
+        <div class="circle__2_circle"></div>
+        <div class="circle__2_point"></div>
+      </div>
+      <div class="circle__3">f</div>
+    </div>
+    <p class="text__bottom">2020 &#169; WebHero School</p>
+  </div>
+</body>
+</html>
