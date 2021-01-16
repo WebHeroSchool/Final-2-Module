@@ -198,7 +198,6 @@
     flex-direction: column;
     color: #585858;
     margin: 0 130px;
-
   }
 
   .slide__contents {
@@ -299,6 +298,7 @@
       height: 322px;
       background: #330099;
     }
+
     .title__bottom {
       margin:0;
       display: flex;
@@ -322,7 +322,6 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
-
     }
 
     .circle__1 {
@@ -336,7 +335,6 @@
       margin: 0;
       font: bold 44px/47px MontserratBlack, arial, helvetica, sans-serif;
       color: #330099;
-
     }
 
     .circle__2 {
@@ -387,6 +385,7 @@
     .hamburger-nav {
       display: none;
     }
+
     .slider__nav {
       display: none;
     }
@@ -833,6 +832,7 @@
         height: 200px;
         background: #330099;
       }
+
       .title__bottom {
         margin:0 15px;
         display: flex;
@@ -856,7 +856,6 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-
       }
 
       .circle__1 {
@@ -904,7 +903,6 @@
         height: 3px;
         background: #330099;
         border-radius: 50px;
-
         margin: 10px 22px;
       }
 
